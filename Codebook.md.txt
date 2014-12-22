@@ -1,0 +1,14 @@
+ Data Source
+ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+ Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+ 
+ Following steps are done:
+ 1. Both train and test data sets are read and saved in R by using 'read.table' function.
+ 2. Both train and test data are joined using 'rbind' function.
+ 3. The mean and standard deviation measurements are only considered for each measurement by using "grep" function.
+ 4. The column names are changed appropriately according to descriptive variable names.
+ 5. A tidy data set is generated.
+ 6. Further the mean of each variable for each activity and each subject are calculated.
+ 
